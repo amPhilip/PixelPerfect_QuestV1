@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { assets } from "../../assets/assets";
+import { CiGlobe } from "react-icons/ci";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -22,7 +23,7 @@ const Header = () => {
   return (
     <nav className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32">
-        <h3 className="cursor-pointer">Mirae Asset CENTER<sup className="text-sm">1</sup></h3>
+        <h3 className="cursor-pointer text-white">Mirae Asset CENTER<sup className="text-sm">1</sup></h3>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-7 text-white">
@@ -37,8 +38,8 @@ const Header = () => {
           ))}
         </ul>
 
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
-          <img src={assets.globe} alt="globe" className="w-[18px] h-[18px] cursor-pointer"/>
+        <button className="hidden md:block  px-8 py-2 rounded-full">
+          <CiGlobe className="w-[18px] h-[18px] cursor-pointer text-white"/>
         </button>
 
         {/*----Mobile Menu Icon----*/}
@@ -57,6 +58,7 @@ const Header = () => {
         }`}
       >
         <div className="flex justify-end p-6">
+
           <img
             src={assets.cross_icon}
             alt="Close"
