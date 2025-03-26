@@ -38,7 +38,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <button className="hidden md:block  px-8 py-2 rounded-full">
+        <button className="hidden md:block px-8 py-2 rounded-full">
           <CiGlobe className="w-[18px] h-[18px] cursor-pointer text-white"/>
         </button>
 
@@ -57,7 +57,8 @@ const Header = () => {
           mobileMenu ? "h-screen" : "h-0 overflow-hidden"
         }`}
       >
-        <div className="flex justify-end p-6">
+        <div className="flex justify-between items-center p-6">
+        <h3 className="cursor-pointer text-black">Mirae Asset CENTER<sup className="text-sm">1</sup></h3>
 
           <img
             src={assets.cross_icon}
