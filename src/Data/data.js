@@ -26,3 +26,29 @@ export const convenienceData = {
     },
   ],
 };
+
+export const convenienceData_2 = {
+  title: "ONLY CENTER1",
+  subtitle: "미래에셋센터원에서만 누리는",
+  highlight: "특별한 혜택",
+  cards: [
+    {
+      image: assets.convenience_1,
+      title: "프라임 서비스",
+      description:
+        "임산부 휴게실/수유실, 안심 서비스, 우편 배달 서비스 등 임직원 맞춤형 편의형 서비스를 제공합니다.",
+    },
+    {
+      image: assets.convenience_2,
+      title: "E-pit 전기차 충전소",
+      description:
+        "미래에셋센터원 주차장에는 전기차 이용자들을 위해 일반 충전소 외에도 E-pit 전기차 충전소가 마련되어 있습니다.",
+    },
+    {
+      image: assets.convenience_3,
+      title: "주차요금 할인",
+      description:
+        "오피스, 아파트 임차사 직원의 복지를 도모하고자 최대 8천원 부터의 할인혜택을 받을 수 있습니다.",
+    },
+  ],
+};
