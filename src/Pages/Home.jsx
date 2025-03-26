@@ -4,6 +4,7 @@ import EnviromentBanner from "../components/Hero/EnviromentBanner"
 import ServicesSection from "../shared/Section";
 import { convenienceData, convenienceData_2 } from "../Data/data";
 import EventBanner from "../components/Hero/EventsBanner";
+import Gallery from "../components/Gallery/Gallery";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
        {/* Reversed Order */}
        <ServicesSection data={convenienceData_2} reverse={true} />
        <EventBanner/>
+       <Gallery/>
     </div>
   );
 };
