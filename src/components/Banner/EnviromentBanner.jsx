@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { assets } from "../../assets/assets";
 import { IoChevronForwardOutline } from "react-icons/io5";
 
-const slides = [assets.banner, assets.banner_2, assets.convenience_3];
+const slides = [assets.banner, assets.enviroment_1, assets.enviroment_2];
 
 const EnvironmentBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

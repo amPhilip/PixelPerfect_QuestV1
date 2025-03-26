@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden"
-      style={{ backgroundImage: "url('/hero.jpg')" }}
+      style={{ backgroundImage: "url('/hero.png')" }}
       id="Header"
     >
       <div className="container mx-auto px-6 md:px-20 lg:px-32 pt-24 pb-16 text-white">
